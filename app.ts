@@ -1,7 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 
-import router from './routes/menu.route';
+import menuRoute from './routes/menu.route';
+import userRoute from './routes/user.route';
 
 
 
@@ -11,6 +12,7 @@ app.use(cors());
 
 app.use(express.json());
 
-app.use('/api/v1/menus', router);
+app.use('/api/v1/menus', menuRoute);
+app.use('/api/v1/users', userRoute);
 
 export default app;

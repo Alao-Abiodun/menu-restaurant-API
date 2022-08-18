@@ -2,9 +2,9 @@ import { Router } from 'express';
 
 import MenuController from '../controllers/menu.controller';
 
-const router: Router = Router();
+const userRoute: Router = Router();
 
-router.get('/', MenuController.getAllMenus);
-router.post('/', MenuController.createMenu);
+userRoute.get('/', MenuController.getAllMenus);
+userRoute.post('/', MenuController.createMenu);
 
-export default router;
+export default userRoute;
