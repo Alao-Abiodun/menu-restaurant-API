@@ -24,7 +24,7 @@ const MONGO_URI: string = process.env.MONGO_URI || 'mongodb://localhost:27017/me
         const port = process.env.PORT || 3000;
 
         app.listen(port, () => {
-            console.log(`Restaurant service API is ready at  http//localhost:${port}`);
+            console.log(`Restaurant service API is ready at  http://localhost:${port}`);
         })
     } catch (error) {
         process.exit(1);
