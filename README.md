@@ -32,10 +32,10 @@ To use the API you need to have installed Node.js and npm or yarn. Then you can 
 yarn install or npm install 
 ```
 
-### Run the server
+### Run the server locally
 
 ```bash
-yarn start or npm start
+yarn dev or npm dev
 ```
 
 ### Endpoints
