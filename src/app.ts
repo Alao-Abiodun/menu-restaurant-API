@@ -17,7 +17,7 @@ app.use('/api/v1', userRoute);
 
 app.get('/', (req: Request, res: Response) => {
     res.status(200).json({
-        message: 'Welcome to the Restaurant Service API'
+        message: 'Welcome to the Restaurant Service API v1'
     })
 })
 
